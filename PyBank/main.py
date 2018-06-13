@@ -2,7 +2,7 @@ import csv
 import os
 
 # choose file 1 or 2
-file_num = 2
+file_num = 1
 
 # create file path and save as file
 file = os.path.join('raw_data', 'budget_data_'+ str(file_num) +'.csv')

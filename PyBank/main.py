@@ -52,7 +52,7 @@ output_path = os.path.join('Output','pybank_output_' + str(file_num) + '.txt')
 with open(output_path, 'w') as writefile:
     writefile.writelines('Financial Analysis\n')
     writefile.writelines('---------' + '\n')
-	writefile.writelines('Total Revenue: $' + str(total_revenue) + '\n')
+    writefile.writelines('Total Revenue: $' + str(total_revenue) + '\n')
     writefile.writelines('Total Months: ' + str(total_months) + '\n')    
     writefile.writelines('Average Revenue Change: $' + str(average_change) + '\n')
     writefile.writelines('largest Increase in Revenue: ' + great_inc_month + ' ($' + str(largest_inc) + ')'+ '\n')

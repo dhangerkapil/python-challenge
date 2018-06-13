@@ -17,7 +17,7 @@ total_votes = 0
 with open(file, 'r') as csvfile:
     csvread = csv.reader(csvfile)
 
-       next(csvread, None)
+    next(csvread, None)
 
     #creates dictionary from file using column 3 as keys, using each name only once.
    
@@ -53,7 +53,7 @@ for name in clean_data:
     if max(num_votes) == name[1]:
         winner_list.append(name[0])
 
-y
+
 winner = winner_list[0]
 
 if len(winner_list) > 1:
